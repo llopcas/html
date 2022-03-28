@@ -1,13 +1,13 @@
-.ewk_cont_banner{
+.banner{
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../img/arq1.jpg");
+    background-image: url("../img/Target.jpeg");
 }
 
-.ewk_sobra{
+.sombra{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -22,26 +22,26 @@
     margin: auto;
 }
 
-.ewk_sobra hr{
+.sombra hr{
     border-top: 1px solid #fff;
 }
 
-.ewk_sobra h1{
+.sombra h1{
     font-size: 8vw;
     margin-bottom: 10px;
 }
 
-.ewk_sobra p{
+.sombra p{
     font-size: 4vw;
     margin-bottom: 10px;
 }
 
-.ewk_cont_banner_link{
+.banner_link{
     margin: 15px;
     position: relative;
 }
 
-.ewk_cont_banner_link a{
+.banner_link a{
     position: relative;
     display: inline-block;
     color: #fff;
@@ -52,30 +52,30 @@
     width: 150px;
 }
 
-.ewk_cont_banner_link a:hover{
+.banner_link a:hover{
     background-color: #fff;
     color: #111;
 }
 
-.ewk_banner_link{
+.banner_link{
     opacity: 0;
-    animation: ewk_keyframes_aparecer_de_arriba 1s;
-    -webkit-animation: ewk_keyframes_aparecer_de_arriba 1s;
+    animation: keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: keyframes_aparecer_de_arriba 1s;
     animation-fill-mode: forwards;
 }
 
-.ewk_banner_link_1{
+.banner_link_1{
     opacity: 0;
-    animation: ewk_keyframes_aparecer_de_arriba 1s;
-    -webkit-animation: ewk_keyframes_aparecer_de_arriba 1s;
+    animation: keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: keyframes_aparecer_de_arriba 1s;
     animation-fill-mode: forwards;
     animation-delay: 0.5s;
 }
 
-.ewk_banner_link_2{
+.banner_link_2{
     opacity: 0;
-    animation: ewk_keyframes_aparecer_de_arriba 1s;
-    -webkit-animation: ewk_keyframes_aparecer_de_arriba 1s;
+    animation: keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: keyframes_aparecer_de_arriba 1s;
     animation-fill-mode: forwards;
     animation-delay: 1s;
 }
