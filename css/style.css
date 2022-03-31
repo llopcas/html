@@ -32,8 +32,25 @@ body {
     border-top: 2px solid rgba(1, 1,1, 0.5);
 }
 
+.cont2 h1{
+    font-size: 2.9vw;
+}
+
+.cont2 p{
+    font-size: 1.9vw;
+}
+
+
 .container3 hr{
     border-top: 2px solid rgba(1, 1,1, 0);
+}
+
+.container3 h2{
+    font-size: 2.9vw;
+}
+
+.container3 h3{
+    font-size: 1.9vw;
 }
 
 .cont_footer{
@@ -48,6 +65,35 @@ body {
     text-decoration: none;
     display: block;
 }
+
 .cont_img_footer{
     padding: 5%;
+}
+
+.cont_footer h2{
+    font-size: 2.9vw;
+}
+
+.cont_footer p{
+    font-size: 0.9vw;
+}
+
+.cont_form{
+    font-size: 3.9vw;
+}
+
+.cont_form p{
+    font-size: 4.9vw;
+}
+
+.cont_form label{
+    font-size: 1.9vw;
+}
+
+::placeholder {
+    font-size: 1.5vw;
+}
+
+.cont_form select{
+    font-size: 1.9vw;
 }

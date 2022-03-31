@@ -1,3 +1,5 @@
+
+
 .banner{
     height: 100vh;
     background-attachment: fixed;
@@ -86,7 +88,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../img/arq2.jpg");
     position: relative;
     padding: 10%;
     margin-top: 200px;
@@ -98,6 +99,10 @@
     color: #fff;
     padding: 2%;
 }
+
+.cont_banner_sec_3 h1{
+    font-size: 2.9vw;
+}    
 
 .cont_img{
     padding: 5%;
